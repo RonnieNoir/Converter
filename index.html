@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Conversion</title>
+    <script src="https://kit.fontawesome.com/da770a1ab6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body class="dark">
+        <div class="units">
+
+            <!--Temp starts here-->
+            <div class="unit active" style="background-image: url(/background/temper)">
+                <div class="shadow"></div>
+                <section id="container">
+                    <div class="temp-container">
+                        <div class="Fahrenheit">
+                            <input type="number" id="f" placeholder="Fahrenheit"><br>
+                        </div>
+                        <div class="Celsius">
+                            <input type="number" id="c" placeholder="Celsius"><br>
+                        </div>
+                        <div class="Kelvin">
+                            <input type="number" id="k" placeholder="Kelvin"><br>
+                        </div>
+                        <div class="btn-clr">
+                        <div class="temp-clear">
+                            <button id="temp-clear">Clear</button>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="label">
+                    <div class="icon" style="--color: blue">
+                        <i class="fas fa-temperature-high"></i>
+                    </div>
+                    <div class="info">
+                        <div class="label-text">Temperature</div>
+                        <div class="label-text-description">Converts Fahrenheit, Celsius, and Kelvin</div>
+                    </div>
+                </div>
+            </div> 
+
+            <!--Weight starts here-->
+            <div class="unit active" style="background-image: url(/background/planets);">
+                <div class="shadow"></div> 
+                <section id="container">
+                    <div class="weight-container">
+                        <div class="Pounds">
+                            <input type="number" id="lbs" placeholder="Pounds"><br>
+                        </div>
+                        <div class="Grams">
+                            <input type="number" id="gm" placeholder="Grams"><br>
+                        </div>
+                        <div class="Kilograms">
+                            <input type="number" id="kg" placeholder="Kilograms"><br>
+                        </div>
+                        <div class="Ounces">
+                            <input type="number" id="oz" placeholder="Ounces"><br>
+                        </div>
+                        <div class="btn-clr">
+                        <div class="weight-clear">
+                            <button id="weight-clear">Clear</button>
+                        </div>
+                        </div>
+                    </div>
+                </section>  
+                <div class="label">
+                    <div class="icon" style="--color: green">
+                        <i class="fas fa-weight-hanging"></i>
+                    </div>
+                    <div class="info">
+                        <div class="label-text">Weight</div>
+                        <div class="label-text-description">Converts Pounds, Grams, Kilograms, and Ounces</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Distance starts here-->
+            <div class="unit active" style="background-image: url(/background/Space);">
+                <div class="shadow"></div>    
+                <section id="container">
+                    <div class="dis-container">
+                        <div class="Miles">
+                            <input type="number" id="f" placeholder="Miles"><br>
+                        </div>
+                        <div class="Kilometers">
+                            <input type="number" id="c" placeholder="Kilometers"><br>
+                        </div>
+                        <div class="Feet">
+                            <input type="number" id="k" placeholder="Feet"><br>
+                        </div>
+                        <div class="btn-clr">
+                        <div class="dis-clear">
+                            <button id="dis-clear">Clear</button>
+                        </div>
+                        </div>
+                    </div>
+                </section>    
+                <div class="label">
+                    <div class="icon" style="--color: red">
+                        <i class="fas fa-people-arrows"></i>
+                    </div>
+                    <div class="info">
+                        <div class="label-text">Distance</div>
+                        <div class="label-text-description">Converts Miles, Kilometers, and Feet</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="/temp.js"></script>
+    <script src="/weight.js"></script>
+    <script src="/dist.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+    <script src="/card.js"></script>
+</body>
+</html>
